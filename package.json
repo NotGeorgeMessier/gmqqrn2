@@ -33,6 +33,7 @@
     "@react-navigation/native-stack": "^6.9.9",
     "lottie-ios": "4.4.1",
     "lottie-react-native": "6.7.0",
+    "react-native-device-info": "10.13.1",
     "react": "18.2.0",
     "react-native": "0.73.4",
     "react-native-fast-image": "^8.6.3",

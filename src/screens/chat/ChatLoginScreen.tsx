@@ -9,19 +9,15 @@ export const ChatLoginScreen: TStackScreen<CHAT_SCREENS.LOGIN> = () => {
         <BaseView>
             <ScrollView>
                 <UIText>screen name</UIText>
-                <UIText>ExampleScreen1</UIText>
-                <UIText>1</UIText>
+                <UIText>ChatLoginScreen</UIText>
                 <UITouch onPress={() => NavigationService.goBack()}>
                     <UIText>goback</UIText>
                 </UITouch>
                 <UITouch onPress={() => NavigationService.navigate("MAIN_SCREEN")}>
                     <UIText>nav to main</UIText>
                 </UITouch>
-                <UITouch onPress={() => NavigationService.navigate(EXAMPLE_SCREENS.TWO)}>
-                    <UIText>nav to example 2</UIText>
-                </UITouch>
-                <UITouch onPress={() => NavigationService.navigate(EXAMPLE_SCREENS.THREE)}>
-                    <UIText>nav to example 3</UIText>
+                <UITouch onPress={() => NavigationService.navigate(EXAMPLE_SCREENS.ONE)}>
+                    <UIText>nav to example 1</UIText>
                 </UITouch>
             </ScrollView>
         </BaseView>

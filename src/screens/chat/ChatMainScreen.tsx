@@ -8,8 +8,7 @@ export const ChatMainScreen: TStackScreen<CHAT_SCREENS.MAIN> = () => {
         <BaseView>
             <ScrollView>
                 <UIText>screen name</UIText>
-                <UIText>ExampleScreen2</UIText>
-                <UIText>2</UIText>
+                <UIText>ChatMainScreen</UIText>
                 <UITouch onPress={() => NavigationService.goBack()}>
                     <UIText>goback</UIText>
                 </UITouch>
@@ -18,9 +17,6 @@ export const ChatMainScreen: TStackScreen<CHAT_SCREENS.MAIN> = () => {
                 </UITouch>
                 <UITouch onPress={() => NavigationService.navigate(EXAMPLE_SCREENS.ONE)}>
                     <UIText>nav to example 1</UIText>
-                </UITouch>
-                <UITouch onPress={() => NavigationService.navigate(EXAMPLE_SCREENS.THREE)}>
-                    <UIText>nav to example 3</UIText>
                 </UITouch>
             </ScrollView>
         </BaseView>

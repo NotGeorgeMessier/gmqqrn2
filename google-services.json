@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "57754790418",
+    "project_id": "gmqqrn2",
+    "storage_bucket": "gmqqrn2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:57754790418:android:645c785e7d3f6ab0cd86cb",
+        "android_client_info": {
+          "package_name": "com.gmqqrn2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtr6tex8MrI692OSXf8BDyinp_C5CYl-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

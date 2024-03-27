@@ -8,7 +8,11 @@ type NextScreensParams = {
     [P in NEXT_SCREENS]: undefined;
 };
 type ChatScreensParams = {
-    [P in CHAT_SCREENS]: undefined;
+    [CHAT_SCREENS.LOGIN]: undefined;
+    [CHAT_SCREENS.MAIN]: {
+        author: string;
+        nickname: string;
+    };
 };
 
 export type TRootStack = NextScreensParams &
